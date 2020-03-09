@@ -10,13 +10,13 @@ export const Form = () => {
         event.preventDefault()
         if (value.trim()) {
             firebase.addNote(value.trim()).then(()  => {
-                alert.show('Note was created', 'success')
+                alert.show('Note created', 'success')
             }).catch(() => {
                 alert.show('Oops, something wrong', 'danger')
             })
             setValue('')
         } else {
-            alert.show('Enter a note name')
+            alert.show('Enter note name')
         }
     }
     return (

@@ -20,7 +20,7 @@ export const Notes = ({notes, onRemove}) => {
                         className="btn btn-outline-danger btn-sm"
                         onClick={() => {
                             onRemove(note.id)
-                            alert.show('Note was deleted', 'danger')
+                            alert.show('Note deleted', 'danger')
                         }}
                     >
                         &times;
