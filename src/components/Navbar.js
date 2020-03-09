@@ -11,7 +11,7 @@ export const Navbar = () => (
             <li className="nav-item">
                 <NavLink
                     className="nav-link"
-                    to="/"
+                    to="note-app/"
                     exact
                 >Main
                 </NavLink>
@@ -19,7 +19,7 @@ export const Navbar = () => (
             <li className="nav-item">
                 <NavLink
                     className="nav-link"
-                    to="/about"
+                    to="note-app/about"
                 >About
                 </NavLink>
             </li>
